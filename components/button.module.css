@@ -1,0 +1,43 @@
+.complete, .postpone, .delete, .cancel, .next {
+  padding-right: 1rem;
+}
+
+.complete, .postpone, .delete {
+  margin-bottom: 0.5rem;
+}
+
+.complete {
+  background-color: var(--mint60);
+}
+
+.postpone {
+  background-color: var(--orange60);
+}
+
+.delete {
+  background-color: var(--chocolate80);
+}
+
+.cancel, .next, .toHF {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cancel {
+  background-color: var(--chocolate100);
+}
+
+.next {
+  background-color: var(--orange60);
+}
+
+.toHF {
+  background: var(--gradient);
+  margin-left: auto;
+}
+
+.tool {
+  background-color: transparent;
+  border: 1px solid var(--textDark) !important;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}

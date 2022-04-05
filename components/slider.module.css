@@ -1,0 +1,12 @@
+.value {
+  text-align: center;
+}
+
+.slider {
+  width: 100%;
+}
+
+.labels {
+  display: flex;
+  justify-content: space-between;
+}
